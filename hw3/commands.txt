@@ -1,5 +1,0 @@
-grep -o Manette twocities.txt | wc -l
-grep -o "\b[[:alpha:]]\{10\}\b" twocities.txt | head -n 20 | sort -f > twocities_ten_letters.txt
-cat twocities_ten_letters.txt | uniq -i
-grep -o "\b[[:alpha:]]\{10\}\b" twocities.txt | sort -f | uniq -i | head -n 20 > twocities_unique_ten_letters.txt
-ls -l /usr/bin | sort -k5 -r -n | head -n 1
